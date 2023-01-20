@@ -22,7 +22,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'fib-number = rust_fib_py.fib_numb:fib_numb',
+            'fib-number = rust_fib_py.cmd.fib_numb:fib_numb',
         ]
     }
 )
